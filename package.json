@@ -1,0 +1,23 @@
+{
+    "name": "node-red-contrib-custom-nodes",
+    "description": "My own example",
+    "version": "1.0.0",
+    "private": true,
+    "license": "MIT",
+    "dependencies": {
+        "cookie": "0.5.0",
+        "form-data": "4.0.0",
+        "got": "11.8.5",
+        "hash-sum": "2.0.0",
+        "hpagent": "1.0.0",
+        "mustache": "4.2.0",
+        "tough-cookie": "4.0.0",
+        "uuid": "8.3.2"
+    },
+    "node-red": {
+        "nodes": {
+            "custom-httpreq": "custom-httpreq.js"
+        }
+    }
+}
+
